@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sortSelection {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+#sortBy {
+    width: 200px;
+}
+
+#direction {
+    width: 150px;
+}
+
+.table {
+    text-align: center;
+}
+
+.table td {
+    text-align: center !important;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+}
+
+.table th {
+    text-align: center;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-bottom: none;
+}
+
+#logo {
+    background-image: url("/resources/images/logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+
